@@ -5,8 +5,8 @@
 %global enable_tests 0
 
 Name:		%{?scl_prefix}nodejs-qs
-Version:    6.1.0
-Release:    1%{?dist}
+Version:        6.2.1
+Release:        1%{?dist}
 Summary:	A querystring parser that supports nesting and arrays, with a depth limit
 License:	BSD
 URL:		https://github.com/ljharb/qs
@@ -54,6 +54,9 @@ make test-cov
 %{nodejs_sitelib}/qs
 
 %changelog
+* Thu Jan 05 2017 Zuzana Svetlikova <zsvetlik@redhat.com> - 6.2.1-1
+- Updated with script
+
 * Thu Sep 15 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 6.1.0-1
 - Updated with script
 
